@@ -1,0 +1,1 @@
+2017-08-07 20:15:56 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [/vagrant/app/Config/database.php, line 80]

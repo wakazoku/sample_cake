@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on # リライトを有効にする。
+    RewriteRule    ^$    webroot/    [L] # ディレクトリーインデックスへのアクセスだった場合はwebroot/にリライト。
+    RewriteRule    (.*) webroot/$1    [L] # 上のリライト条件にマッチしなかったらwebroot/[リクエストされたパス]にリライト
+</IfModule>
