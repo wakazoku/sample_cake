@@ -1,3 +1,4 @@
 # vagrant関連のフォルダは除外
 .vagrant/machines/default/virtualbox/*
 .DS_Store
+app/tmp/cache/*
