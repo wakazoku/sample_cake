@@ -68,7 +68,8 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
 
-# manage permissions for share directory
+# manage permissions for shared directory
+# chages the host/guest directory following your vagrant settings
 config.vm.synced_folder "/Users/t_wakatabi/sand_box", "/vagrant", mount_options: ['dmode=777','fmode=666']
 
 end
