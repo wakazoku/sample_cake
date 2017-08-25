@@ -2,3 +2,4 @@
 .vagrant/machines/default/virtualbox/*
 .DS_Store
 app/tmp/
+package.box

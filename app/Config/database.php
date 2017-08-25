@@ -64,27 +64,29 @@
  * flags =>
  * A key/value array of driver specific connection options.
  */
-class DATABASE_CONFIG {
+class DATABASE_CONFIG
+{
 
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'test',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
+    public $default = array(
+        'datasource' => 'Database/Mysql',
+        'persistent' => false,
+        'host' => '127.0.0.1',
+        'port' => '3306',
+        'login' => 'root',
+        'password' => 'root',
+        'database' => 'test',
+        'prefix' => '',
+        'encoding' => 'utf8',
+    );
 
-	public $test = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'test',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
+    public $test = array(
+        'datasource' => 'Database/Mysql',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'root',
+        'password' => 'root',
+        'database' => 'test',
+        'prefix' => '',
+        'encoding' => 'utf8',
+    );
 }
