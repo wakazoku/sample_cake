@@ -73,7 +73,8 @@ class DATABASE_CONFIG
         'host' => '127.0.0.1',
         'port' => '3306',
         'login' => 'root',
-        'password' => 'root',
+        // 'password' => 'root', // 会社端末
+        'password' => 'rootPass_1', //自宅端末
         'database' => 'test',
         'prefix' => '',
         'encoding' => 'utf8',
@@ -82,9 +83,11 @@ class DATABASE_CONFIG
     public $test = array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
-        'host' => 'localhost',
+        'host' => '127.0.0.1',
+        'port' => '3306',
         'login' => 'root',
-        'password' => 'root',
+        // 'password' => 'root', // 会社端末
+        'password' => 'rootPass_1', //自宅端末
         'database' => 'test',
         'prefix' => '',
         'encoding' => 'utf8',
