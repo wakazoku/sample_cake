@@ -60,4 +60,19 @@ class PostsController extends AppController
             $this->request->data = $postData;
         }
     }
+
+    // 削除
+    public function delete($postid)
+    {
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+
+        if ($this->Post->delete($postid)) {
+            $this->Flash->success(__('The post with id: %s has been deleted. ', h('id')));
+        } else {
+            $this->Flash->error(__('The post with id: %s could not be deleted.', h('id')));
+        }
+        return $this->redirect(array('action'=>'index'));
+    }
 }
