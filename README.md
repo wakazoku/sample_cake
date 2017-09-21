@@ -7,17 +7,17 @@
 ### ▼VitualBoxをインストール
 * 仮想環境を作る奴。
 * ダウンロードしてインストールするだけ。
-<http://www.oracle.com/technetwork/jp/server-storage/virtualbox/downloads/index.html>
+  <http://www.oracle.com/technetwork/jp/server-storage/virtualbox/downloads/index.html>
 
 ### ▼Vagrantをインストール
 * box(誰かが作ったlinux環境)をローカルに簡単に構築出来る。
 * 開発環境をさっくり作れる、壊せる。
 * ダウンロードしてインストールするだけ。
-<https://www.vagrantup.com/>
+  <https://www.vagrantup.com/>
 
 ### ▼Boxをダウンロード、インストール
 * 下記サイトからboxをダウンロードする。
-<http://www.vagrantbox.es/>
+  <http://www.vagrantbox.es/>
 * boxを追加する。(CentOS7.1)
 <https://github.com/holms/vagrant-centos7-box/tree/master/definitions/CentOS-7.1>
 * ※「2. CentOS7.0のBOX（テンプレート）を追加」を参照
