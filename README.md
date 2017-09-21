@@ -24,7 +24,7 @@
 <http://qiita.com/jianghan0/items/df83350d9c22549c4c96>
 
 ### ▼VagrantfFileを編集する
-ipアドレスの末尾を10から15に変更する(njssのローカルと被るため)  
+ipアドレスの末尾を10から15に変更する(他ローカル環境と被るため)　　
 
 Vagrantfile  
 ```config.vm.network "private_network", ip: "192.168.33.15"```
