@@ -6,13 +6,13 @@
 ## VagrantでローカルにLinux開発環境を構築する 
 ### ▼VitualBoxをインストール
 * 仮想環境を作る奴。
-* ダウンロードしてインストールするだけ。
+* ダウンロードしてインストールするだけ。  
   <http://www.oracle.com/technetwork/jp/server-storage/virtualbox/downloads/index.html>
 
 ### ▼Vagrantをインストール
 * box(誰かが作ったlinux環境)をローカルに簡単に構築出来る。
 * 開発環境をさっくり作れる、壊せる。
-* ダウンロードしてインストールするだけ。
+* ダウンロードしてインストールするだけ。  
   <https://www.vagrantup.com/>
 
 ### ▼Boxをダウンロード、インストール
