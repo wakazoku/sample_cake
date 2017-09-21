@@ -1,7 +1,7 @@
 目次
-VagrantでローカルにLinux開発環境を構築する
-CakePHPの準備
-CakePHPのチュートリアルを試す
+VagrantでローカルにLinux開発環境を構築する<br>
+CakePHPの準備<br>
+CakePHPのチュートリアルを試す<br>
 
 VagrantでローカルにLinux開発環境を構築する
 -------------------------------
