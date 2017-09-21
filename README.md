@@ -45,7 +45,7 @@ Vagrantfile
 
 * Vagrantの共有フォルダにシンボリックリンクを作る  
 　　```[vagrant@localhost www]$ sudo ln -snf /vagrant html```
-    * 　　VagrantはHostOS(Mac)とGuestOS(CentOS)の間に共有フォルダを持つ事ができる。  
+    * VagrantはHostOS(Mac)とGuestOS(CentOS)の間に共有フォルダを持つ事ができる。  
 GuestOSのApatcheの公開フォルダを共有フォルダにシンボリックリンクを作ってあげることで開発が楽に。  
 （ファイルをアップロードする手間が省ける）
 
@@ -57,7 +57,7 @@ GuestOSのApatcheの公開フォルダを共有フォルダにシンボリック
 * CentOSにPHP5.6をインストール  
 <http://qiita.com/pakiln/items/645e8a97cde46b59f9f8>
 
-###▼Vagrant環境にmySqlをインストールする
+### ▼Vagrant環境にmySqlをインストールする
 * 今更ながらVagrantのCentOS7にMySQLをインストールしたメモ  
 <http://yuki10.hatenablog.com/entry/2015/07/10/170948>
 
@@ -98,7 +98,7 @@ GuestOSのApatcheの公開フォルダを共有フォルダにシンボリック
 <http://qiita.com/kazu56/items/a63abb34fe0e2caf1f53>
 * このあたりは未だによく分かっていない…
 
-###▼.htaccessの設定をする
+### ▼.htaccessの設定をする
 * Apache」（アパッチ）を制御する設定ファイル  
 <https://htaccess.cman.jp/sense/>
 * mod_rewriteの設定をCakePHP2,ZF2(Zend Framework2), WordPressの.htaccessを見て復習する。  
